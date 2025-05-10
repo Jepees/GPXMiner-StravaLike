@@ -11,7 +11,7 @@ Cukup upload file `.gpx` dari smartwatch atau aplikasi Strava kamu, dan GPXminer
 
 sebelum bisa menjalankan script ini, pastikan kamu sudah mendownload file GPX dari aktifitas di strava kamu.
 ## ⬇️ Cara Dowload GPX Hasil Lari di Strava
-pastikan kamu melakukan ini di pc atau laptop kamu yaa!!
+pastikan kamu melakukan ini di pc atau laptop kamu yaa!! (atau pastikan gunakan tampilan desktop (centang desktop site) pada browser di smartphone kamu)
 ### 1️⃣ Login di Web Strava
 Login akun strava kamu di website strava (harus di pc atau laptop) https://www.strava.com/login
 
@@ -22,7 +22,7 @@ Arahkan kursor ke gambar profile kamu (di kanan atas) kemudian masuk ke my profi
 
 <img src="assets/Tutor_Download_GPX/2.jpeg" alt="Contoh Gambar" width="700">
 
-### 3️⃣4️ Pilih Activity 
+### 3️⃣ Pilih Activity 
 Gulir ke bawah kemudian pilih activity yang kamu mau buat PNG nya
 
 <img src="assets/Tutor_Download_GPX/3.jpeg" alt="Contoh Gambar" width="700">
@@ -80,8 +80,14 @@ Hasil PNG akan langsung pop up di jendela kamu. dan hasilnya juga akan langsung 
 - Desain gambar siap unggah ke IG Story (988x1317 px)
 - Bebas digunakan – tanpa iklan, tanpa biaya
 
+## 🚀 Target dan Harapan Pengengembangan
+- membuat summary dari olahraga lain seperti berjalan atau bersepeda
+- menambahkan template PNG agar pengguna dapat lebih banyak pilihan hasil gambar
+- membuat metode/model untuk interpolasi data GPS agar perhitungan jarak, kecepatan, dan waktu lebih akurat
+
 ## ‼️Disclaimer
 - Proyek ini dibuat semata-mata untuk latihan programing python saya. Tidak ada niat untuk merugikan pihak-pihak terkait
 - jarak, waktu, pace, dan perhitungan "pause" yang ditampilkan adalah hasil dari metode perhitungan saya sendiri. Harap maklum jika terdapat perbedaan antara aplikasi strava mu dengan output yang diberikan script ini
+
 
 
