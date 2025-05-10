@@ -9,46 +9,7 @@ Cukup upload file `.gpx` dari smartwatch atau aplikasi Strava kamu, dan GPXminer
 <img src="assets/Contoh_Hasil/Contoh(4).PNG" alt="Contoh Gambar" width="300">
 <!-- Ganti dengan path gambar kamu -->
 
-
-## 📂 Struktur Proyek
-```
-📁 Project Root
-├── 📂 Scripts                    # Folder penyimpan scripts dan kode dijalankan
-│   ├── 📜 GPXMiner.py            # File Utama
-│   └── 📜 Example.ipynb          # Notebook contoh untuk menggunakan script
-├── 📂 Hasil                      # Folder output PNG
-├── 📂 Assets                     # Folder untuk menyimpan logo dan font yang digunakan
-    ├── 📂 Fonts
-    │   ├── Outfit-SemiBold.ttf       ← font angka
-    │   └──Roboto-Bold.ttf            ← font teks
-    ├── 📂 Logos
-    |   └── Strava_idOGsGeeO9_1.png   ← logo ala Strava
-├── 📜 requirements.txt              ← daftar library Python
-```
-
-## 🚀 Jalankan Langsung di Google Colab
-Klik tombol di bawah untuk menggunakan GPXminer tanpa install apa pun! cukup buka kemudian run all!!
-
-[![Buka di Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME_KAMU/GPXminer/blob/main/GPXminer_Colab.ipynb)
-
-## 🚀 Cara Menggunakan Script (Jika kamu familiar dengan python)
-### 1️⃣ **Clone Repository**  
-```bash
-git clone https://github.com/Jepees/TTD-SocialGraphFaces.git
-cd TTD-SocialGraphFaces
-```
-### 2️⃣ Instalasi Dependensi
-Pastikan Python 3.10+ sudah terinstall, lalu jalankan:
-```bash
-pip install -r requirements.txt
-```
-### 3️⃣ Jalankan Script
-Buka file Example.ipynb, pada cell ke 3 isi gpx_path dengan path file gpx kamu
-Kemudian Run All 
-
-### 4️⃣ Hasil
-Hasil PNG akan langsung pop up di jendela kamu. dan hasilnya juga akan langsung tersimpan di folder hasil
-
+sebelum bisa menjalankan script ini, pastikan kamu sudah mendownload file GPX dari aktifitas di strava kamu.
 ## ⬇️ Cara Dowload GPX Hasil Lari di Strava
 pastikan kamu melakukan ini di pc atau laptop kamu yaa!!
 ### 1️⃣ Login di Web Strava
@@ -72,6 +33,45 @@ Gulir ke bawah sampai kamu melihat map hasil track lari kamu. Kemudian download 
 <img src="assets/Tutor_Download_GPX/4.png" alt="Contoh Gambar" width="700">
 
 Setelah berhasil download GPX. sekarang kamu siap untuk menjalankan script GPXMiner
+
+## 📂 Struktur Proyek
+```
+📁 Project Root
+├── 📂 Scripts                    # Folder penyimpan scripts dan kode dijalankan
+│   ├── 📜 GPXMiner.py            # File Utama
+│   └── 📜 Example.ipynb          # Notebook contoh untuk menggunakan script
+├── 📂 Hasil                      # Folder output PNG
+├── 📂 Assets                     # Folder untuk menyimpan logo dan font yang digunakan
+    ├── 📂 Fonts
+    │   ├── Outfit-SemiBold.ttf       ← font angka
+    │   └──Roboto-Bold.ttf            ← font teks
+    ├── 📂 Logos
+    |   └── Strava_idOGsGeeO9_1.png   ← logo ala Strava
+├── 📜 requirements.txt              ← daftar library Python
+```
+
+## 🚀 Jalankan Langsung di Google Colab
+Klik tombol di bawah untuk menggunakan GPXminer tanpa install apa pun! cukup buka kemudian run all!!
+
+[![Buka di Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jepees/GPXMiner-StravaLike/blob/main/Scripts/GPXminer_Colab.ipynb)
+
+## 🚀 Cara Menggunakan Script (Jika kamu familiar dengan python)
+### 1️⃣ **Clone Repository**  
+```bash
+git https://github.com/Jepees/GPXMiner-StravaLike.git
+cd GPXMiner-StravaLike
+```
+### 2️⃣ Instalasi Dependensi
+Pastikan Python 3.10+ sudah terinstall, lalu jalankan:
+```bash
+pip install -r requirements.txt
+```
+### 3️⃣ Jalankan Script
+Buka file Example.ipynb, pada cell ke 3 isi gpx_path dengan path file gpx kamu
+Kemudian Run All 
+
+### 4️⃣ Hasil
+Hasil PNG akan langsung pop up di jendela kamu. dan hasilnya juga akan langsung tersimpan di folder hasil
 
 ## ✨ Fitur
 - Hitung otomatis jarak, waktu aktif, jeda, dan pace
