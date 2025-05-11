@@ -53,7 +53,7 @@ class GPXminer:
         minutes = (total_seconds % 3600) // 60
         seconds = total_seconds % 60
         if hours > 0:
-            result = f"{hours}h {minutes}m {seconds}s"
+            result = f"{hours}h {minutes}m"
         if hours == 0:
             result = f"{minutes}m {seconds}s"
         return result
